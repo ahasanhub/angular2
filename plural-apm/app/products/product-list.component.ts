@@ -38,5 +38,7 @@ products:IProduct[]=[{
     ngOnInit():void{
     console.log("on init call");
     }
-
+  onRatingClicked(message:string):void{
+      this.pageTitle="Product List : "+message;
+  }
 }
